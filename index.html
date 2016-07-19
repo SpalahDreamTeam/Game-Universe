@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game Market</title>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/jqueryUI.css">
+	<link rel="stylesheet" href="styles/main.css">
+	
+
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:700italic,400italic,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css">
+
+
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+
+	<script src="js/data.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="header">
+			<ul class="nav">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Категории</a></li>
+				
+			</ul>
+			<form id="singIn">
+				<label >Логин<input type="text"></label>
+				<label >Пароль<input type="password"></label>
+				<button>Вход</button>
+			</form>
+			<ul class="social"> 
+				<p>или</p>
+				<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			</ul>
+			<a class="basket" href="#">
+				Корзина
+				<div class="basketPoints">2</div>
+			</a>
+		</div>
+		<div class="aside">
+			<h3>Категории</h3>
+			<div id="price">
+
+				<h4>Цена:</h4>
+				<label for="amount">Price range:
+				  	<input type="text" id="amount" readonly>
+				  	<div id="slider-range"></div>
+				</label>
+				
+			</div>
+			<div id="genre">
+
+				<h4>Жанр:</h4>
+				<label><input type="checkbox" >All</label>
+				<label><input type="checkbox" >RPG</label>
+				<label><input type="checkbox" >Shuter</label>
+				<label><input type="checkbox" >Sport</label>
+				<label><input type="checkbox" >Racing</label>
+
+			</div>
+			<div id="platform">
+
+				<h4>Платформа:</h4>
+				<label><input type="checkbox" >All</label>
+				<label><input type="checkbox" >PC</label>
+				<label><input type="checkbox" >X-Box</label>
+				<label><input type="checkbox" >PS4</label>
+				
+			</div>
+
+		</div>
+		<div class="main" id="main" >
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			<a href="#" class="mainItem">
+				<img src="img/2346654-battlefield3_karkand.jpg" alt="game">
+				<div>
+					<ul>
+						<li>BattleField 3</li>
+						<li>Shuter</li>
+						<li>PC</li>
+						<li>50 грн</li>
+					</ul>
+					<button>Купить</button>
+				</div>
+			</a>
+			
+			
+
+		</div>
+		<div class="footer">
+			<p>&#169; Copyright 2016 by DREAMTEAMSPALAH</p>
+		</div>
+	</div>
+
+</body>
+</html>
